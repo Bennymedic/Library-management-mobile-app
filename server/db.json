@@ -1,0 +1,192 @@
+{
+  "books": [
+    {
+      "title": "Understanding Algorithm",
+      "genre": "Education",
+      "category": "Computer Sciences",
+      "authorIDs": [
+        "A001",
+        "A002",
+        "bcaf"
+      ],
+      "publisherId": "P001",
+      "id": "B001"
+    },
+    {
+      "title": "Data sturcture",
+      "genre": "Education",
+      "category": "CS",
+      "authorIDs": [
+        "A001",
+        "A002"
+      ],
+      "publisherId": "8e36",
+      "id": "B002"
+    },
+    {
+      "title": "Node Js",
+      "genre": "Education",
+      "category": "Computer Science",
+      "authorIDs": [
+        "A001"
+      ],
+      "publisherId": "P001",
+      "id": "B003"
+    },
+    {
+      "title": "123",
+      "genre": "Education",
+      "category": "CS",
+      "authorIDs": [
+        "A003"
+      ],
+      "publisherId": "8e36",
+      "id": "777f"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Jane Smits",
+      "phone": "234-567-8901",
+      "email": "jane.smith@example.com",
+      "id": "A002"
+    },
+    {
+      "id": "A003",
+      "name": "Emily Johnson",
+      "phone": "345-678-9012",
+      "email": "emily.johnson@example.com"
+    },
+    {
+      "id": "bcaf",
+      "name": "Benny Medic",
+      "phone": "2023031818",
+      "email": "bennymedic@gmail.com"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "TechBooks Publishing",
+      "phone": "456-789-0123",
+      "email": "contact@techbookspub.com",
+      "address": "123 Tech St, Silicon Valley, CA",
+      "id": "P001"
+    },
+    {
+      "name": "Sam",
+      "phone": "777-777-7777",
+      "email": "sam@miu.edu",
+      "address": "Maharishi International University, 1000 N 4th St, Fairfield",
+      "id": "8e36"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "C001",
+      "bookId": "B001",
+      "numberOfCopies": 10,
+      "availableCopies": 7
+    },
+    {
+      "id": "C002",
+      "bookId": "B002",
+      "numberOfCopies": 15,
+      "availableCopies": 11
+    },
+    {
+      "id": "C003",
+      "bookId": "B003",
+      "numberOfCopies": 15,
+      "availableCopies": 5
+    },
+    {
+      "id": "0ec8",
+      "bookId": "777f",
+      "numberOfCopies": 10,
+      "availableCopies": 10
+    }
+  ],
+  "members": [
+    {
+      "firstname": "Alice",
+      "lastname": "Green",
+      "phone": "678-901-2345",
+      "email": "alice.green@example.com",
+      "address": "789 Library Ln, Education Town, MA",
+      "residentID": "S1001",
+      "id": "M001"
+    },
+    {
+      "firstname": "Joe",
+      "lastname": "Doe",
+      "phone": "478-901-2355",
+      "email": "joe.doe@example.com",
+      "address": "789 Library Ln, Education Town, MA",
+      "residentID": "S1001",
+      "id": "M002"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T001",
+      "bookId": "B001",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-01",
+      "returnedDate": "2024-05-15"
+    },
+    {
+      "id": "63f9",
+      "bookId": "B001",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-19",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "20af",
+      "bookId": "B002",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-19",
+      "returnedDate": "2024-06-03"
+    },
+    {
+      "id": "e720",
+      "bookId": "B003",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "a31f",
+      "bookId": "B002",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-06-03"
+    },
+    {
+      "id": "ba27",
+      "bookId": "B003",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": "2024-05-21"
+    },
+    {
+      "id": "5b16",
+      "bookId": "777f",
+      "memberId": "M002",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": "2024-05-21"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Peter",
+      "email": "peter@miu.edu"
+    },
+    {
+      "id": "U002",
+      "name": "Ben",
+      "email": "ben@miu.edu"
+    }
+  ]
+}
